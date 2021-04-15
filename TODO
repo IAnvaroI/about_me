@@ -1,0 +1,22 @@
+ + CSS to separate file
+ + JS to separate file
+ + Header (navigation menu)
+ + Footer (c)
+ + Template inheritance
+
+
+
+ + Contact form (Name, Surname, Email, Phone number, Comment, Rate me (0-10))
+ + Controller + route to validate and save form request
+ + Model to store contact info
+ + Success response: redirect to about me page with success message
+ + Failed response: redirect to contact me page with error message
+
+https://laravel.com/docs/8.x/blade#forms
+https://laravel.com/docs/8.x/controllers
+https://laravel.com/docs/8.x/requests
+https://laravel.com/docs/8.x/validation
+https://laravel.com/docs/8.x/responses
+
+https://laravel.com/docs/8.x/migrations
+https://laravel.com/docs/8.x/eloquent

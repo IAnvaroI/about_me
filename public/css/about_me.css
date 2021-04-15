@@ -1,0 +1,159 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    width: 40%;
+    overflow: auto;
+    border: 2px solid darkgrey;
+    position: relative;
+    margin: auto;
+}
+
+#notTechInfo {
+    background-color: rgb(208, 206, 207);
+    width: 45%;
+    min-height: 80%;
+    float: left;
+    padding-top: 75px;
+}
+
+#techInfo {
+    background-color: white;
+    width: 55%;
+    min-height: 80%;
+    float: right;
+    padding-top: 75px;
+}
+
+#name, #surname {
+    display: inline-block;
+    font-size: 35px;
+    padding-left: 15%;
+    margin-bottom: 2%;
+}
+
+#photo {
+    height: 250px;
+    width: 100%;
+}
+
+hr {
+    border: none;
+    color: #A0A3A7;
+    background-color: #A0A3A7;
+    height: 2px;
+}
+
+.sectionName {
+    font-size: 25px;
+}
+
+.notTechSections {
+    padding-top: 4%;
+    padding-left: 15%;
+    padding-right: 10%;
+}
+
+.techSections {
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+#leftSkillsColumn {
+    width: 50%;
+    float: left;
+}
+
+#rightSkillsColumn {
+    width: 50%;
+    float: right;
+}
+
+#successMessage {
+    background-color: #19a711;
+    width: 100%;
+    min-height: 6%;
+    color: gold;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: dimgrey;
+    width: 45%;
+    min-height: 6%;
+}
+
+.menuLink {
+    text-decoration: none;
+    font-size: 20px;
+    color: gold;
+    display: inline-block;
+    padding-top: 2%;
+    padding-left: 18%;
+    float: left;
+}
+
+#contactForm {
+    font-size: 20px;
+}
+
+#contactForm label {
+    position: relative;
+    left: 5%;
+}
+
+.inputData {
+    position: absolute;
+    right: 5%;
+    width: 60%;
+    font-size: 20px;
+}
+
+#commentInput {
+    display: block;
+    height: 150px;
+    width: 90%;
+    position: relative;
+    left: 4%;
+}
+
+#subBut {
+    margin-left: 30%;
+    height: 40px;
+    width: 40%;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: dimgrey;
+    width: 45%;
+    min-height: 3%;
+    text-align: center;
+    color: gold;
+    font-size: 20px;
+    left: 27.5%;
+    bottom: 0;
+    padding-top: 1%;
+}
+
+#errors {
+    background-color: #ff0000;
+    width: 100%;
+    min-height: 6%;
+    color: gold;
+    font-size: 20px;
+    text-align: center;
+}
+
+#errors ul {
+    margin: 0;
+}

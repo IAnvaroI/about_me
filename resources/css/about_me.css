@@ -1,0 +1,74 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    width: 40%;
+    overflow: auto;
+    border: 2px solid darkgrey;
+    position: relative;
+    margin: auto;
+}
+
+#notTechInfo {
+    background-color: rgb(208, 206, 207);
+    width: 45%;
+    min-height: 80%;
+    float: left;
+    padding-top: 75px;
+}
+
+#techInfo {
+    background-color: white;
+    width: 55%;
+    min-height: 80%;
+    float: right;
+    padding-top: 75px;
+}
+
+#name, #surname {
+    display: inline-block;
+    font-size: 35px;
+    padding-left: 15%;
+    margin-bottom: 2%;
+}
+
+#photo {
+    height: 250px;
+    width: 100%;
+}
+
+hr {
+    border: none;
+    color: #A0A3A7;
+    background-color: #A0A3A7;
+    height: 2px;
+}
+
+.sectionName {
+    font-size: 25px;
+}
+
+.notTechSections {
+    padding-top: 4%;
+    padding-left: 15%;
+    padding-right: 10%;
+}
+
+.techSections {
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+#leftSkillsColumn {
+    width: 50%;
+    float: left;
+}
+
+#rightSkillsColumn {
+    width: 50%;
+    float: right;
+}
