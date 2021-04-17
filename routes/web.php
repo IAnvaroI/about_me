@@ -30,3 +30,7 @@ Route::get(
     '/contact_form/request',
     [ContactingUserController::class, 'create']
 )->name('request');
+
+Route::get( '/test', function () {
+        return view('test');
+});

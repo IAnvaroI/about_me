@@ -20,3 +20,7 @@ https://laravel.com/docs/8.x/responses
 
 https://laravel.com/docs/8.x/migrations
 https://laravel.com/docs/8.x/eloquent
+rm -rf node_modules
+rm package-lock.json yarn.lock
+npm cache clear --force
+npm install
