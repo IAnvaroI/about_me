@@ -26,7 +26,7 @@
             <hr>
             <b>Address:</b>
             <br>
-            20 Naukova street, Lviv
+            Lviv
             <br><br>
             <b>Phone:</b>
             <br>
